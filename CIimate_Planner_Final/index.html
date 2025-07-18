@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Weather & Air Quality Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-link">
+    <a href="dashboard.html">Go to Dashboard View ➔</a>
+  </div>
+  <div id="map"></div>
+
+  <div id="ai-widget">
+    <div id="ai-widget-header">AI Environmental Assistant</div>
+    <div id="ai-chat-history">
+      <div class="ai-message model-message" id="ai-status">Hello! Ask me about the data or use a suggestion below.</div>
+    </div>
+    <div id="ai-static-prompts">
+      <button class="static-prompt-btn">Which places are dangerous?</button>
+      <button class="static-prompt-btn">Any areas with clean air?</button>
+      <button class="static-prompt-btn">Is Mawsynram safe today?</button>
+    </div>
+    <div id="ai-input-area">
+      <input type="text" id="ai-prompt-input" placeholder="Ask about the data...">
+      <button id="ai-send-button"></button>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

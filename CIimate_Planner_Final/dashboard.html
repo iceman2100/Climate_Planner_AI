@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alerts & Insights Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="dashboard-container">
+    <div class="page-link">
+      <a href="index.html">➔ Back to Map View</a>
+    </div>
+
+    <header>
+      <h1>🚨 Environmental Alerts Dashboard</h1>
+      <p>Real-time analysis of monitored locations.</p>
+    </header>
+
+    <div id="loading-message">
+      <p>Analyzing all locations... Please wait.</p>
+    </div>
+
+    <main class="dashboard-main">
+      <section class="alerts-section">
+        <h2>🔴 Dangerous Condition Alerts</h2>
+        <div id="dangerous-alerts" class="alerts-grid"></div>
+      </section>
+
+      <section class="alerts-section">
+        <h2>🟠 Moderate Condition Warnings</h2>
+        <div id="moderate-warnings" class="alerts-grid"></div>
+      </section>
+
+      <section class="alerts-section">
+        <h2>✅ Safe Condition Locations</h2>
+        <div id="safe-areas" class="alerts-grid"></div>
+      </section>
+      
+      <section class="insights-section">
+        <h2>💡 Summary & Insights</h2>
+        <div id="disaster-prone-areas" class="insight-card">
+          <h3>Disaster-Prone Areas</h3>
+          <p>Locations consistently showing moderate or dangerous readings.</p>
+          <ul id="prone-locations-list"></ul>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
