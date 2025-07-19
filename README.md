@@ -101,7 +101,7 @@ Live‑Server port | .vscode/settings.json
 <h2>License</h2>
 <p>MIT — Fork, remix, and deploy anywhere.</p>
 <blockquote>
-<p><em>Built in 24 hrs for <strong>"Let’s Build AI for Climate Resilience(Hackathon)" by <strong>Team SklyMinds</strong> — “Think globally, sense locally, act instantly.”</em></p>
+<p><em>Built in 24 hrs for <strong>"Let’s Build AI for Climate Resilience(Hackathon)" by <strong>Team SkyMinds</strong> — “Think globally, sense locally, act instantly.”</em></p>
 </blockquote>
 <pre><code>
 
